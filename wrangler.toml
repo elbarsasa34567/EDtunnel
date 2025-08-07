@@ -1,8 +1,30 @@
-name = "test2"
+name = "sgbaru"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
+
+[[routes]]
+pattern = "sgbaru"
+custom_domain = true
+[[routes]]
+pattern = "npca.netflix.com.sgbaru.elbarputra.my.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.sgbaru.elbarputra.my.id"
+custom_domain = true
+[[routes]]
+pattern = "support.zoom.us.sgbaru.elbarputra.my.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.sgbaru.elbarputra.my.id"
+custom_domain = true
+[[routes]]
+pattern = "investor.fb.com.sgbaru.elbarputra.my.id"
+custom_domain = true
+[[routes]]
+pattern = "zaintest.vuclip.com.sgbaru.elbarputra.my.id"
+custom_domain = true
 
 [vars]
 PROXYIP = "129.150.54.20:13666"
